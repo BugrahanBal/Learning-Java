@@ -1,0 +1,29 @@
+package com.example.githubproject;
+
+import android.database.sqlite.SQLiteCantOpenDatabaseException;
+
+
+import java.util.Scanner;
+
+public class Github {
+
+    public static void main(String[] args)  {
+
+        
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please input a number : ");
+        double number = scanner.nextDouble();
+        System.out.println(number);
+        
+        // Fisrt of all we have created a Class named Github
+        // After that we have defined method " public static void main(String[] args)" 
+        // If you want to write some codes or etc. you have to have class and method
+        // "public static void main(String[] args)" is the most popular method where the program starts simply the entry point of Java .
+        // It is the most common syntax of main() method.
+        // And we use Scanner Method to get input
+        // Finally printed input
+      
+
+    }
+}
